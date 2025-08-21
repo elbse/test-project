@@ -1,9 +1,5 @@
+<x-layout>
 
-<html>
-<head>
-    <title>Ninjas Network | Home</title>
-</head>
-<body>
     <h2>Ninjas</h1>
 
     
@@ -20,5 +16,4 @@
             </li>
         @endforeach
     </ul>
-</body>
-</html>
+</x-layout>
