@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/ninjas',function(){
     $ninjas = [
         ["name" => "mario", "skill" => 75, "id" => "1"],
-        ["name" => "mark", "skill" => 75, "id" => "2"],
+        ["name" => "mark", "skill" => 68, "id" => "2"],
         ["name" => "joan", "skill" => 75, "id" => "3"],
     ];
 
