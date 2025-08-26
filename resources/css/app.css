@@ -20,3 +20,21 @@ ul{
 p{
     @apply my-2;
 }
+
+header{
+    @apply bg-white;
+
+    nav{
+        @apply flex items-center gap-5 max-w-screen-log px-12 py-4 mx-auto;
+    }
+    h1{
+        @apply mr-auto;
+    }
+}
+
+form{
+    @apply max-w-screen-sm;
+}
+input, select, textarea{
+    @apply block w-full mt-2 mb-4 p-2;
+}
