@@ -18,7 +18,7 @@
         @vite('resources/css/app.css')
     </head>
     <body>
-        <h1 class="text-center px-8 py-10">Hello what is up</h1>
+        <h1 class="text-center px-8 py-10">Hello welcome</h1>
 
         <a href="/ninjas" class="btn">
             Find ninjas!
