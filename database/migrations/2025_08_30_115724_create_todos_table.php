@@ -16,7 +16,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('title');
             $table->boolean('is_complete');
-            $table->string('user_id');
+            $table->boolean('is_in_progress');
         });
     }
 
