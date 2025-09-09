@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NinjaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,15 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ninjas',function(){
-    $ninjas = [
-        ["name" => "mario", "skill" => 75, "id" => "1"],
-        ["name" => "mark", "skill" => 68, "id" => "2"],
-        ["name" => "joan", "skill" => 75, "id" => "3"],
-    ];
-
-    return view('ninjas.index',["greeting" => "Hello po"], ["ninjas" => $ninjas]);
-});
+Route::get('/ninjas', [NinjaController::class, 'index']);
+   
+    
 
 Route::get('/ninjas/create',function(){
     return view ('ninjas.create');

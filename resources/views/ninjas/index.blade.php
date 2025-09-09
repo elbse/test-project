@@ -1,6 +1,6 @@
 <x-layout>
 
-    <h2>Ninjas</h1>
+    <h2>Ninjas</h2>
 
     
     {{-- @if ($greeting == "Hi po")
